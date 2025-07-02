@@ -1,0 +1,27 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": " npm run test"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelguirado/calculator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelguirado/calculator-app/issues"
+  },
+  "homepage": "https://github.com/manuelguirado/calculator-app#readme",
+  "dependencies": {
+    "jest": "^30.0.3"
+  }
+}
